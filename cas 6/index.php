@@ -1,3 +1,4 @@
+<?php declare(strict_types=1) ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-
+<!-- <h1>hello world</h1> -->
 
 <?php
 
@@ -106,25 +107,131 @@
 // }
 
 // $time = date('H');
-$time = 19;
-echo $time;
-$today = date("l");
+// $time = 19;
+// echo $time;
+// $today = date("l");
 
 // ako e povekje od 18 do 6 sbaje, dobrovečer,
 // ako e pomeđu 6 sabaje i 11 sabaje, dobro utro,
 // ako e pomeđu 11 sabaje i 18 sabaje, dobarden
 
-if ($time > 18 && $time < 6) {
-    echo "Добра вечер";
-} elseif ($time >= 6 && $time < 11) {
-    echo "Добро утро";
-} else {
-    echo "Добар ден";
-}
+// if ($time > 18 && $time < 6) {
+//     echo "Добра вечер";
+// } elseif ($time >= 6 && $time < 11) {
+//     echo "Добро утро";
+// } else {
+//     echo "Добар ден";
+// }
+
+
+// $currentTime = date('H');
+// if ($currentTime <= 6 && $currentTime <= 20) {
+//     <link href="/style.css">
+// } else if ($currentTime <= 20 && $currentTime <= 6)
 
 
 
+    // $hour = date('H');
+    // if ($hour >= 6 && $hour < 20) {
+    //     echo '<h1>hello light</h1>';
+    //     echo '<link rel="stylesheet" type="text/css" href="light.css">';
+        
+    // } else {
+    //     echo '<h1>hello dark</h1>';
+    //     echo '<link rel="stylesheet" type="text/css" href="dark.css">';
+    // }
 
+        // $x=0;
+        // while($x <= 10){
+        //     echo $x."</br>";
+        //     $x++;
+        // }
+
+        // echo "<hr>";
+        // echo "do while example";
+        // echo "<hr>";
+        
+
+        // do {
+        //     echo $x."</br>";
+        //     $x++;
+        // } while ($x < 20);
+
+
+        // for (initialisation ; condition ; incremenet ; )
+
+
+        // for ($x=0; $x<10; $x++){
+        //     if ($x==7){
+        //         break;
+        //     }
+        //     echo $x."</br>";
+        // }
+
+        // foreach ($arr ad $val) {
+        //     code logic
+        // }
+
+        // $brojki = array("eden","dva","tri","cetri","pet");
+
+        // foreach ($brojki as $val) {
+        //     echo $val."</br>";
+        // }
+
+        // i = 0;
+        // for ($y=10;$y=0;i--;){
+        //     echo $i.echo"<br>";
+        // }
+
+
+        // for ($i = 0; $i < 100; $i++) {
+        //     if ($i % 2 == 0){
+        //         echo $i . " is even." . "<br>";
+        //     } else {
+        //         echo $i . " is odd." . "<br>";
+        //     }
+        // }
+        
+        // function imetoNaFunkcijata(){
+        //     codelogic
+        // }
+
+        
+
+        
+        
+
+
+    // // while (uslov - true ) {
+    // //     code logicfunction parni_broevi(){
+    //         for ($i = 0; $i<100; $i+=2) {
+    //             echo $i.'<br>';
+    //         }
+    //     }
+
+    //     parni_broevi();
+
+
+    //     function parni_broevi_u($until){
+    //         for ($i = 0; $i<=$until; $i+=2) {
+    //             echo $i.', ';
+    //         }
+    //     }
+
+    //     parni_broevi_u(60);
+    // // }
+
+
+
+   
+    function proizvodnabroevi($broj1, $broj2) {
+        $proizvod = $broj1 + $broj2;
+        echo $proizvod;
+    }
+    
+    proizvodnabroevi(5, 7);
+    
+    
 
 
 
