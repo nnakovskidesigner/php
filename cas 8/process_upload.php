@@ -1,11 +1,11 @@
 <?php
 $maximumfilesize = 1000000;
 if (!empty($_FILES['uploaded_file'])) {
-    
+    echo "this condition works";
     $path = "uploads/";
     $path = $path . basename($_FILES['uploaded_file']['name']);
     var_dump($_FILES);
-    if ($_FILES['uploaded_file']['size'] > $maximumfilesize) {
+    if ($_FILES['uploaded_file']['size'] > 1000000) {
         echo "vasiot file e pogolem od 1MB";
     } else {
         if (move_uploaded_file($_FILES['uploaded_file']['tmp_name'], $path)) {

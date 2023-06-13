@@ -12,10 +12,10 @@
 <?php
 
 ?>
-<form action="process_upload.php" method="POST">
+<form action="process_upload.php" method="GET" enctype="multipart/form-data">
 
 
-	<input type="file" id="uploaded_file" />
+	<input type="file"  name="uploaded_file" />
 
 	<button type="submit">Submit</button>
 </form>
