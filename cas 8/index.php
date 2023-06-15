@@ -12,8 +12,8 @@
 <?php
 
 ?>
-<form action="process_upload.php" method="GET" enctype="multipart/form-data">
-
+<form >
+action="process_upload.php" method="POST" enctype="multipart/form-data"
 
 	<input type="file"  name="uploaded_file" />
 
